@@ -1,0 +1,16 @@
+[
+{
+  "modid": "communitymod",
+  "name": "Community Mod",
+  "description": "A Community Mod to teach modding.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["shauncjones, The Community"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
