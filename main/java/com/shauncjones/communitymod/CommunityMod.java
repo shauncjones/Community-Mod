@@ -1,6 +1,7 @@
 package com.shauncjones.communitymod;
 
 import com.shauncjones.communitymod.proxy.CommonProxy;
+import com.shauncjones.communitymod.util.CommunityModTab;
 import com.shauncjones.communitymod.util.Reference;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
@@ -18,6 +19,8 @@ public class CommunityMod {
 
     @SidedProxy(clientSide = Reference.CLIENTPROXYCLASS, serverSide = Reference.SERVERPROXYCLASS)
     public static CommonProxy proxy;
+
+    public static final CommunityModTab CMTab = new CommunityModTab();
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event){

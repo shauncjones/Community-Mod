@@ -8,7 +8,7 @@ import net.minecraftforge.registries.IForgeRegistry;
 
 public class CommunityModItems {
 
-    public static ItemBase ingotCopper = new ItemBase("ingot_copper").setCreativeTab(CreativeTabs.MISC);
+    public static ItemBase ingotCopper = new ItemBase("ingot_copper");
 
     public static void register(IForgeRegistry<Item> registry){
 
